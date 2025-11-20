@@ -11,6 +11,9 @@ import TestimonialsPage from './components/TestimonialsPage'
 import Contact from './components/Contact'
 import AdminDashboard from './components/AdminDashboard'
 import NotFound from './components/NotFound'
+import WeatherPage from './components/WeatherPage'
+import MandiPage from './components/MandiPage'
+import DiseaseDetector from './components/DiseaseDetector'
 import Test from './Test'
 import './index.css'
 
@@ -22,6 +25,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route index element={<HomePage />} />
           <Route path="features" element={<FeaturesPage />} />
           <Route path="how-it-works" element={<HowItWorks />} />
+          <Route path="detector" element={<DiseaseDetector />} />
+          <Route path="weather" element={<WeatherPage />} />
+          <Route path="mandi" element={<MandiPage />} />
           <Route path="demo" element={<DemoPage />} />
           <Route path="pricing" element={<Pricing />} />
           <Route path="testimonials" element={<TestimonialsPage />} />
